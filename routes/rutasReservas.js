@@ -16,8 +16,8 @@ const rutas=Router();
 //Listado de rutas
 
 //no me quier conectar con las rutas a la bd
-rutas.get('/reserva/clientes/:id',registrarUsuario)
-rutas.post('/reserva/nueva',buscarUsuario)
+rutas.post('/reserva/clientes/:id',registrarUsuario)
+rutas.get('/reserva/nueva',buscarUsuario)
 rutas.get('/reserva/nueva',buscarUsuarios)
 rutas.put('/reserva/editar/:id',editarUsuario)
 rutas.delete('/reserva/eliminar/:id',eliminarUsuario)
