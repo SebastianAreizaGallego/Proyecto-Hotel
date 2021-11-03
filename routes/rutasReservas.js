@@ -21,13 +21,13 @@ const rutas=Router();
 //Listado de rutas
 
 rutas.get('/reserva/clientes',registrarUsuario)
-rutas.post('/reserva/nueva',buscarUsuario)
+rutas.post('/reserva/nueva:id',buscarUsuario)
 rutas.get('/reserva/nueva',buscarUsuarios)
 rutas.put('/reserva/editar/:id',editarUsuario)
 rutas.delete('/reserva/eliminar/:id',eliminarUsuario)
 
 rutas.get('/habitaciones/clientes',registrarHabitacion)
-rutas.post('/habitaciones/nueva',buscarHabitacion)
+rutas.post('/habitaciones/nueva:id',buscarHabitacion)
 rutas.get('/habitaciones/nueva',buscarHabitaciones)
 rutas.put('/habitaciones/editar/:id',editarHabitacion)
 rutas.delete('/habitaciones/eliminar/:id',eliminarHabitacion)

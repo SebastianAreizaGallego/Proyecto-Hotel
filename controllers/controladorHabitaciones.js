@@ -49,7 +49,7 @@ const {borrarHabitacion}=require('../services/servicios.js')
 
 }
 async function buscarHabitacion(peticion=request,respuesta=response){
-    //capturr el id del jugador a buscar
+   
 
     let id=peticion.params.id
 
