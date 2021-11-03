@@ -4,21 +4,21 @@
 const {request,response}=require('express')
 
 //importar el servicio
-const {insertarHabitacion}=require('../services/servicios.js')
+const {insertarHabitacion}=require('../services/serviciosHabitaciones.js')
 
 //importar el servicio
-const {leerHabitacion}=require('../services/servicios.js')
+const {leerHabitacion}=require('../services/serviciosHabitaciones.js')
 
 //importar el servicio
-const {leerHabitaciones}=require('../services/servicios.js')
+const {leerHabitaciones}=require('../services/serviciosHabitaciones.js')
 
 
 
 //importar el servicio
-const {modificarHabitacion}=require('../services/servicios.js')
+const {modificarHabitacion}=require('../services/serviciosHabitaciones.js')
 
 //importar el servicio
-const {borrarHabitacion}=require('../services/servicios.js')
+const {borrarHabitacion}=require('../services/serviciosHabitaciones.js')
 
 
 
